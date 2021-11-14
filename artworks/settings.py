@@ -19,8 +19,11 @@ NEWSPIDER_MODULE = 'artworks.spiders'
 #USER_AGENT = 'artworks (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
-
+ROBOTSTXT_OBEY = False
+LOG_LEVEL = 'DEBUG'
+LOG_FILE = 'log.log'
+LOG_ENABLED = True
+FEED_EXPORT_ENCODING = 'utf-8'
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
