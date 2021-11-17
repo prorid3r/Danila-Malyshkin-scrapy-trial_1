@@ -1,1 +1,8 @@
-# Place for time log for the project
+Didn't really keep a proper timing, but it went something like this.
+~ 12.11.2021 13:30:00 -  ~ 12.11.2021 14:30:00 Pulled the project. Lurked the site, checked out the structure,
+    data, robots.txt, existence of sitemap. Found my old scrapy projects. Read some documentation to refresh the memory,
+    even some irrelevant topics like middlewares and stuff.
+~ 14.11.2021 12:30:00 -  ~ 14.11.2021 14:30:00 created a basic version, with some distractions in between.
+~ 16.11.2021 19:30:00 -  ~ 16.11.2021 20:30:00 decided to do the task with item loaders just out of curiosity, because i
+    knew of them ,but never really used
+  17.11.2021 throughout the day - local testing, fixes based on the scraped data.
