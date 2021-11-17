@@ -3,4 +3,3 @@
 2. First type of dimension is taken (if many are present, like "image", "mount" etc...)
 3. Decided to clean up authors occupation from their names. If it was needed I would probably separate those fields
 4. Not sure whether the "untitled" titles should be stripped of this word or not. For example "Untitled [red branch in snow]"
-5. Skipped height and width in works with 1 dimension. But its not a hard fix if needed

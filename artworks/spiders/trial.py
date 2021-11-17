@@ -57,6 +57,8 @@ class TrialSpider(scrapy.Spider):
                     if len(dims)>=2:
                         l.add_value('height', dims[0])
                         l.add_value('width', dims[1])
+                    elif len(dims)==1:
+                        l.add_value('height', dims[0])
         categories = response.meta.get('categories')
         categories[-1] = categories[-1].split('?')[0]
         l.add_value('categories', categories)
