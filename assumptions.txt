@@ -1,4 +1,5 @@
 # Put your assumptions here
 1. First dimension is height second is width
 2. First type of dimension is taken (if many are present, like "image", "mount" etc...)
-2. Decided to clean up authors occupation from their names. If it was needed I would probably separate those fields
+3. Decided to clean up authors occupation from their names. If it was needed I would probably separate those fields
+4. Not sure whether the "untitled" titles should be stripped of this word or not. For example "Untitled [red branch in snow]"
