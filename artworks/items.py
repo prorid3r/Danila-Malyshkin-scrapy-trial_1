@@ -27,6 +27,7 @@ def filter_authors_from_head_title(value):
         res = artist_in_title_replace_pattern.search(value)
         if res:
             value = value[:res.span()[0]].strip()
+        value = value.replace('-  - SMMAC','').strip()
     return value
 
 
